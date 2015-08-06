@@ -115,7 +115,7 @@
                                 <i class="fa fa-search-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="img/portfolio/grlogan.png" class="img-responsive" alt="">
+                        <img src="img/portfolio/grlogan.png" class="img-responsive" alt="G.R. Logan" title="G.R. Logan">
                     </a>
                 </div>
                 <div class="col-sm-4 portfolio-item">
@@ -125,7 +125,7 @@
                                 <i class="fa fa-search-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="img/portfolio/ayrshire_bakery_box.png" class="img-responsive" alt="">
+                        <img src="img/portfolio/ayrshire_bakery_box.png" class="img-responsive" alt="The Bakery Box" title="The Bakery Box">
                     </a>
                 </div>
                 <div class="col-sm-4 portfolio-item">
@@ -135,7 +135,7 @@
                                 <i class="fa fa-search-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="img/portfolio/carbieston_byres_kennels.png" class="img-responsive" alt="">
+                        <img src="img/portfolio/carbieston_byres_kennels.png" class="img-responsive" alt="Carbieston Byres Kennels" title="Carbieston Byres Kennels">
                     </a>
                 </div>
                 <div class="col-sm-4 portfolio-item">
@@ -145,7 +145,7 @@
                                 <i class="fa fa-search-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="img/portfolio/ayrshire_minis.png" class="img-responsive" alt="">
+                        <img src="img/portfolio/ayrshire_minis.png" class="img-responsive" alt="Ayrshire Minis" title="Ayrshire Minis">
                     </a>
                 </div>
                 <div class="col-sm-4 portfolio-item">
@@ -155,7 +155,17 @@
                                 <i class="fa fa-search-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="img/portfolio/wrestlemania_main_event.png" class="img-responsive" alt="">
+                        <img src="img/portfolio/wrestlemania_main_event.png" class="img-responsive" alt="Wrestlemania Main Event" title="Wrestlemania Main Event">
+                    </a>
+                </div>
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#portfolioModal6" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/viva_menswear.png" class="img-responsive" alt="Viva Menswear" title="Viva Menswear">
                     </a>
                 </div>
             </div>
@@ -477,7 +487,40 @@
             </div>
         </div>
     </div>
-
+    <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Viva Menswear</h2>
+                            <hr class="star-primary">
+                            <img src="img/portfolio/viva_menswear.png" class="img-responsive img-centered" alt="Viva Menswear" title="Viva Menswear">
+                            <p>Local menswear store based in Prestwick, Ayrshire. Proprietor Jaswant Singh required an online presence via a brochure site.</p>
+                            <ul class="list-inline item-details">
+                                <li>Client:
+                                    <strong><a href="#">Viva Menswear</a></strong>
+                                </li>
+                                <li>Date:
+                                    <strong>Winter 2011</strong>
+                                </li>
+                                <li>Service:
+                                    <strong>PHP, jQuery, HTML 5</strong>
+                                </li>
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
     <!-- jQuery -->
     <script src="js/jquery.js"></script>
 
