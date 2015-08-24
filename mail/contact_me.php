@@ -21,6 +21,7 @@ if (empty($_POST['name']) ||
     return false;
 }
 
+// no real need to sanitise since there is no DB
 $name          = $_POST['name'];
 $email_address = $_POST['email'];
 $phone         = $_POST['phone'];
@@ -40,6 +41,12 @@ $message = Swift_Message::newInstance('Portfolio Enquiry')
     ->setBody($email_body);
 
 $result = $mailer->send($message);
+
+// write the contact info to a flat file since outbound comms seems to be disabled on AwardSpace :(
+$fp = fopen('email-contacts.txt', 'a');
+fwrite($fp, $name . '|' . $email_address . '|' . $phone . '|' . $_POST['message'] . PHP_EOL);
+fwrite($fp, str_repeat('=', 50) . PHP_EOL);
+fclose($fp);
 
 return true;
 ?>
